@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+}
+
+.card {
+   width: 96%;
+   margin: 10px 2%;
+   box-shadow: 2px 15px 30px rgba(0,0,0,0.5);
+}
+
+.course-img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.course-body {
+    padding: 10px;
+}
+
+.course-heading {
+    text-align:center;
+    padding: 5px; 
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.course-text {
+    text-align: justify;
+}
+
+.course-price {
+    text-align:center;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #DF2E2E;
+    color: #FFF;
+}
