@@ -23,7 +23,7 @@ $(document).ready(function () {
                         <div class="course-price">
                             $ ${dataValue.price}
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
             `
