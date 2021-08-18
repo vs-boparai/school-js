@@ -47,3 +47,54 @@
     background-color: #DF2E2E;
     color: #FFF;
 }
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+.text-green {
+    color: #08bd08;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.error {
+    padding: 0 0 0 10px;
+}
+
+.form-submit {
+    background-image: url(https://cdn.dribbble.com/users/114484/screenshots/3331928/submitting.gif);
+    height: 400px;
+    background-position: center;
+}
+
+.search {
+    width: 100%;
+	outline: none;
+    padding: 10px 10px;
+	font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.clear-container {
+    width: 100%;
+    text-align: center;
+}
+
+#clear_result {
+    background-color: rgb(197, 196, 196);
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#clear_result:hover {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}

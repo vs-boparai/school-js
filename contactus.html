@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>ABC COLLEGE</title>
-     <link href="css/finalprocss.css" rel="stylesheet" type="text/css" />
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"><!--google font/copied this from google fonts-->
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>ABC COLLEGE</title>
+    <link href="css/finalprocss.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"><!--google font/copied this from google fonts-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -27,7 +31,9 @@
             </nav>
         </div>
     </header>
-<div class="bannercontact"></div>
+
+    <div class="bannercontact"></div>
+
     <div id="heading"><h2>Contact Us-Get in touch</h2></div>
     <div class="sectionconct">
         <div class="sc">
@@ -45,32 +51,39 @@
             <p>1234567890</p>
             <p>1237800754</p>
         </div>
-       
-        
-        
-        </div>
+    </div>
+
     <section>
-     <div class="contactus-section">
-                <div class="form">
-                  <div class="text">DONT HESITATE TO CONTACT US</div>
-                    <form >
-                        <input type="text" name="firstname" placeholder="Name">
-                        <input type="text" name="email" placeholder="Email">
-                        <textarea placeholder="Message" class="msg"></textarea>
-                        <input class="btn" type="submit" value="SUBMIT">
-                      
-                    </form>
-                </div>
-    
-                <div class="form  im">
-                    <div class="content" >
-                        <img src="IMG/522-5222367_thumb-image-contact-me-logo-hd-png-download.png" alt="contact us image">
-                        
-                        <!--https://www.pngitem.com/pimgs/m/522-5222367_thumb-image-contact-me-logo-hd-png-download.png -->
+        <div class="contactus-section">
+            <div class="form">
+                <span class="text">DONT HESITATE TO CONTACT US</span>
+                <br>
+                <br>
+                <form action="submit.html" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="firstname" placeholder="Name" id="firstname">
+                        <span class="firstname_msg"></span>
                     </div>
+                    <div class="form-group">
+                        <input type="text" name="email" placeholder="Email" id="email">
+                        <span class="email_msg"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5"></textarea>
+                        <span class="msg_error error"></span>
+                    </div>
+                    <input class="btn" type="submit" id="contact_submit" value="SUBMIT">
+                </form>
+            </div>
+    
+            <div class="form  im">
+                <div class="content" >
+                    <img src="IMG/522-5222367_thumb-image-contact-me-logo-hd-png-download.png" alt="contact us image">
                 </div>
-         </div>
-       </section>
+            </div>
+        </div>
+    </section>
+
 <footer class="ftr">
   	 <div class="container">
   	 	<div class="row">
@@ -107,6 +120,9 @@
   	 	</div>
   	 </div>
   </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./js/contact.js"></script>
  
     </body>
 </html>
